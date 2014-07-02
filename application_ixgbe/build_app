@@ -1,0 +1,12 @@
+gcc -Wall -o start start.c
+gcc -Wall -o stop stop.c
+gcc -Wall -o todisk todisk.c
+gcc -Wall -o count_recorded count_recorded.c
+gcc -Wall -o dump_packet dump_packet.c
+gcc -Wall -o to_libpcap to_libpcap.c
+gcc -Wall -o block_info block_info.c
+gcc -Wall -o block2libpcap block2libpcap.c
+gcc -Wall -o count_then_discard count_then_discard.c
+
+gcc -Wall -o status status.c
+

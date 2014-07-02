@@ -1,0 +1,14 @@
+# add or renmove, depends on the number of writers you configure
+./todisk 0 &
+./todisk 1 &
+./todisk 2 &
+./todisk 3 &
+./todisk 4 &
+./todisk 5 &
+./todisk 6 &
+./todisk 7 &
+./todisk 8 &
+./todisk 9 &
+./todisk 10 &
+./todisk 11 &
+

@@ -1,0 +1,2 @@
+cat /sys/module/rcutree/parameters/rcu_cpu_stall_suppress
+

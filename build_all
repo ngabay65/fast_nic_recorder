@@ -1,0 +1,30 @@
+echo "*********************"
+echo "* build mmap driver *"
+echo "*********************"
+cd map_user
+make clean
+make
+cd ..
+
+echo "********************************"
+echo "* build user space application *"
+echo "********************************"
+cd application_ixgbe
+./build_app
+cd ..
+
+echo "********************"
+echo "* build irq script *"
+echo "********************"
+cd arrange_irq
+gcc -o make_irq_script make_irq_script.c
+cd ..
+
+echo "**********************"
+echo "* build ixgbe driver *"
+echo "**********************"
+cd ixgbe-3.18.7/src
+make clean
+make
+cd ../..
+

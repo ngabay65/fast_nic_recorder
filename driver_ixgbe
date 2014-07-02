@@ -1,0 +1,12 @@
+insmod ./ixgbe-3.18.7/src/ixgbe.ko RSS=1,1
+sleep 1
+
+ifconfig nam0 192.168.1.50
+ifconfig nam0 promisc
+ethtool -A nam0 rx off
+ethtool -A nam0 tx off
+
+cd arrange_irq
+./arrange_irq
+cd ..
+

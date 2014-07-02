@@ -1,0 +1,5 @@
+rm -rf /mnt/sda/*
+rm -rf /home/phongle/sdb/*
+rm -rf /mnt/sdc/*
+rm -rf /mnt/sdd/*
+

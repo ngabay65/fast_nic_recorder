@@ -1,0 +1,28 @@
+echo "*********************"
+echo "* clean mmap driver *"
+echo "*********************"
+cd map_user
+make clean
+cd ..
+
+echo "********************************"
+echo "* clean user space application *"
+echo "********************************"
+cd application_ixgbe
+./clean_app
+cd ..
+
+echo "********************"
+echo "* clean irq script *"
+echo "********************"
+cd arrange_irq
+rm -f make_irq_script
+cd ..
+
+echo "**********************"
+echo "* clean ixgbe driver *"
+echo "**********************"
+cd ixgbe-3.18.7/src
+make clean
+cd ../..
+

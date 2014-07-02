@@ -1,0 +1,3 @@
+rmmod map_nlsim
+rm /dev/nlsim
+

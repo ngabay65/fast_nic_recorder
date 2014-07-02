@@ -1,0 +1,6 @@
+find /proc/irq/ -name smp_affinity > irq_list
+find /proc/irq/ -name smp_affinity | xargs cat > irq_value
+./make_irq_script irq_list irq_value set_irqs
+chmod a+x set_irqs
+./set_irqs
+

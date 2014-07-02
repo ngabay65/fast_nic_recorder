@@ -1,0 +1,4 @@
+# modify to fit your system
+mount -t ext2 /dev/sda /mnt/sda
+mount -t ext2 /dev/sdc /mnt/sdc
+mount -t ext2 /dev/sdd /mnt/sdd

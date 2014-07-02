@@ -1,0 +1,12 @@
+rm -f start
+rm -f stop
+rm -f todisk
+rm -f count_recorded
+rm -f dump_packet
+rm -f to_libpcap
+rm -f block_info
+rm -f block2libpcap
+rm -f count_then_discard
+
+rm -f status
+

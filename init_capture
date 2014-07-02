@@ -1,0 +1,4 @@
+./no_stall
+./clock_up
+insmod ./map_user/map_nlsim.ko
+mknod /dev/nlsim c 200 0
